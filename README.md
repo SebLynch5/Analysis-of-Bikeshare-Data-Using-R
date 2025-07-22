@@ -20,14 +20,6 @@ Aimed to answer three core questions of our choosing using the dataset:
 - Several months are combined. The full data set used can be downloaded [here](https://drive.google.com/file/d/1xuENzP1YW5FPUapptNCO98HuFgOYsTaT/view?usp=drive_link)
 - Timeframe: 2020–2021
 
-## Data Cleaning
-
-Key cleaning and transformation steps included:
-- Dropping empty or irrelevant columns
-- Parsing timestamps
-- Computing ride distances
-- Categorising rides by time of day and user type
-
 ## Files Included
 
 - `BikeshareData.Rmd` – R Markdown source file containing code and narrative analysis
@@ -39,6 +31,5 @@ Key cleaning and transformation steps included:
 - Common R packages used:
   - `tidyverse`
   - `lubridate`
-  - `geosphere`
   - `ggplot2`
 
